@@ -10,9 +10,16 @@ class Team:
         self.form=0
         self.home_form=0
         self.away_form=0
-        self.last_game_date=date(2010,1,1)
+        #change date here
+        self.last_game_date=date(2011,1,1)
         self.no_of_games_this_season=0
         self.no_of_wins_this_season=0
         self.percentage_of_wins_this_season=50
         self.h2h={}
+    def reset(self,last_year_position):
+        self.no_of_games_this_season=0
+        self.no_of_wins_this_season=0
+        self.percentage_of_wins_this_season=50
+        self.last_year_position=last_year_position
+        self.current_position=last_year_position
 

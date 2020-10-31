@@ -12,28 +12,32 @@ import pickle
 # text=html.read()
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
-
-f=open("html/SuperLiga 2010_2011 Results - Volleyball_Brazil.html")
+#change html file name
+f=open("html/FlashScore.in_ SuperLiga 2011_2012 Results.html")
 text=f.read()
-# soup=BeautifulSoup(html,"html.parser")
-# print(soup.find_all("div"))
+
 res=re.findall("<div class=\"event__time\".*?<div id.*?>",text)
 for i in range(len(res)):
     res[i]=re.sub("<.*?>","  ",res[i])
-# print(res)
-# temp=res[0].split("  ")
+
 matches = [Match(i) for i in res] 
 matches.reverse()
 for i in matches:
     print(i)
     print('\n')
 print(len(matches))
-
+dict_file=open('dict_file.txt','rb')
+global_dict=pickle.load(dict_file)
 local_dict={}
-for i in range(15):
+#change no of teams
+for i in range(12):
     team=input("Enter team name\n")
     last_year_pos=int(input("Last year position\n"))
-    local_dict[team]=Team(team,last_year_pos)
+    if(team in global_dict):
+        local_dict[team]=global_dict[team]
+        local_dict[team].reset(last_year_pos)
+    else:
+        local_dict[team]=Team(team,last_year_pos)
 
 list1=[]
 list2=[]
@@ -101,7 +105,7 @@ for match in matches:
     local_dict[match.away_team].no_of_games_this_season+=1
     local_dict[match.home_team].percentage_of_wins_this_season=local_dict[match.home_team].no_of_wins_this_season/local_dict[match.home_team].no_of_games_this_season*100
     local_dict[match.away_team].percentage_of_wins_this_season=local_dict[match.away_team].no_of_wins_this_season/local_dict[match.away_team].no_of_games_this_season*100
-    sorted_list=sorted(local_dict.values(),key=attrgetter('no_of_wins_this_season'),reverse=True)
+    sorted_list=sorted(local_dict.values(),key=attrgetter('no_of_wins_this_season',"last_year_position"),reverse=True)
     for pos,item in enumerate(sorted_list,1):
         local_dict[item.name].current_position=pos
     local_dict[match.home_team].form=exponential_av(diff,0.2,local_dict[match.home_team].form)
@@ -141,9 +145,13 @@ df = pd.DataFrame({'home_team_av_points':list1,
 })
 print("here3")
 print(df.head())
-df.to_csv('csv/2010-11.csv')
+#change csv file name
+df.to_csv('csv/2011-12.csv')
 dict_file=open('dict_file.txt','ab')
-pickle.dump(local_dict,dict_file)
+for key,values in local_dict.items():
+    global_dict[key]=local_dict[key]
+dict_file.truncate(0)
+pickle.dump(global_dict,dict_file)
         
 
     

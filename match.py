@@ -17,16 +17,18 @@ class Match:
             self.away_scores.append(int(temp[6+i*2]))
         self.day=int(self.date[0:2])
         self.month=int(self.date[3:5])
-        self.year=2010
+        #update dates
+        self.year=2011
         if(self.month<=4):
-            self.year=2011
+            self.year=2012
         self.importance=0
         self.DATE=date(self.year,self.month,self.day)
-        if(self.DATE>=date(2011,4,25)):
+        #change dates
+        if(self.DATE>=date(2012,4,21)):
             self.importance=3
-        elif(self.DATE>=date(2011,3,31)):
+        elif(self.DATE>=date(2012,4,4)):
             self.importance=2
-        elif(self.DATE>=date(2011,3,22)):
+        elif(self.DATE>=date(2012,3,17)):
             self.importance=1
         self.home_av_points=mean(self.home_scores)
         self.away_av_points=mean(self.away_scores)
