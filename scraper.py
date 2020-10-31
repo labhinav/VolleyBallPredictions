@@ -6,13 +6,14 @@ from team import Team
 import sys
 from operator import attrgetter
 import pandas as pd
+import pickle
 # url = "https://www.flashscore.in/volleyball/brazil/superliga-2010-2011/results"
 # html=urlopen(url)
 # text=html.read()
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
 
-f=open("SuperLiga 2010_2011 Results - Volleyball_Brazil.html")
+f=open("html/SuperLiga 2010_2011 Results - Volleyball_Brazil.html")
 text=f.read()
 # soup=BeautifulSoup(html,"html.parser")
 # print(soup.find_all("div"))
@@ -106,7 +107,7 @@ for match in matches:
     local_dict[match.home_team].form=exponential_av(diff,0.2,local_dict[match.home_team].form)
     local_dict[match.away_team].form=exponential_av(-diff,0.2,local_dict[match.away_team].form)
     local_dict[match.home_team].home_form=exponential_av(diff,0.2,local_dict[match.home_team].home_form)
-    local_dict[match.away_team].form=exponential_av(-diff,0.2,local_dict[match.away_team].away_form)
+    local_dict[match.away_team].away_form=exponential_av(-diff,0.2,local_dict[match.away_team].away_form)
     local_dict[match.home_team].last_game_date=match.DATE
     local_dict[match.away_team].last_game_date=match.DATE
     local_dict[match.home_team].h2h[match.away_team]=exponential_av(diff,0.2,local_dict[match.home_team].h2h[match.away_team])
@@ -135,11 +136,14 @@ df = pd.DataFrame({'home_team_av_points':list1,
     'h2h_form':list17,
     'match_importance':list18,
     'home_win_percentage':list19,
-    'away_win_percentage':list20
+    'away_win_percentage':list20,
+    'result':result
 })
 print("here3")
 print(df.head())
-df.to_csv('2009-10.csv')
+df.to_csv('csv/2010-11.csv')
+dict_file=open('dict_file.txt','ab')
+pickle.dump(local_dict,dict_file)
         
 
     

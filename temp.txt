@@ -1,0 +1,31 @@
+Sesi 
+5
+Cimed
+1
+Sada Cruzeiro
+3
+America Volei
+2
+Minas
+8
+Pinheiros
+4
+Volei Futuro
+10
+Medley
+8
+Londrina
+9
+Sao Bernardo
+10
+Volta Redonda
+13
+Fatima UCS
+6
+Blumenau
+11
+Santo Andre
+12
+Ulbra Sao Caetano
+9
+
