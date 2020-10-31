@@ -1,9 +1,0 @@
-(function(w,d){var divName="o7hozb17kts",zone=w.ABN(divName),media={id:1389523120,poolID:1247792504,width:120,height:240,campaignID:1827765033,zoneID:1664006129,siteID:1296957475, url:"https://z.cdn.ftd.agency/go?z=1664006129&m=1389523120&c=1827765033&p0=1247792504&u=31cc1c7c5769a19f&t=1604123716&n=3712576378621277480&h=916651758",
-os:9,
-country:6, path:ABN.protocol+"//f1.cdn.ftd.agency/uploads/media/0/2/12520/"};zone.catID=0;
-zone.vars={"id14":{"expireClose":"0"},"id16":{"rich_media_max_time":""}};media.vars={"src":{"1xbet_IN_120x240_IPLIndiaRrupee":"v1/1xbet_IN_120x240_IPLIndiaRrupee.gif"},"alt":"Click!"};zone.media=media;//tm7
-function getKey(){var a=Math.abs(Date.now()-Date.UTC(2E3));return String.fromCharCode(97+Math.floor(a/1E10%10))+(a/1E7).toFixed(0)}var src,key;for(key in media.vars.src)if(media.vars.src[key].match(/(jpe?g|png|gif)/i)){src=media.vars.src[key];break}
-if(null!=src){media.vars.alt="undefined"!=typeof media.vars.alt?media.vars.alt:"";var btn=document.createElement("a"),pic=document.createElement("img");attr={display:"block",margin:"auto",outline:"none","text-align":"center","line-height":0};ABN.merge(btn.style,attr);attr={href:media.url,target:"_blank",title:media.vars.alt};ABN.merge(btn,attr);attr={position:"static"};ABN.merge(pic.style,attr);pic.setAttribute("src",media.path+src);pic.setAttribute("width",media.width);pic.setAttribute("height",
-"auto");btn.setAttribute("rel","nofollow");btn.setAttribute("class",getKey());btn.appendChild(pic);zone.append(btn)};
-
-})(window, document);
