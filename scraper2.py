@@ -13,7 +13,7 @@ import pickle
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
 #change html file name
-f=open("html/FlashScore.in_ SuperLiga 2011_2012 Results.html")
+f=open("html/FlashScore.in  SuperLiga 2013_2014 Results.html")
 text=f.read()
 
 res=re.findall("<div class=\"event__time\".*?<div id.*?>",text)
@@ -30,14 +30,19 @@ dict_file=open('dict_file.txt','rb')
 global_dict=pickle.load(dict_file)
 local_dict={}
 #change no of teams
+team_name = []
 for i in range(12):
     team=input("Enter team name\n")
-    last_year_pos=int(input("Last year position\n"))
+    team_name.append(team)
     if(team in global_dict):
         local_dict[team]=global_dict[team]
-        local_dict[team].reset(last_year_pos)
     else:
-        local_dict[team]=Team(team,last_year_pos)
+    	local_dict[team]=Team(team,0)
+    
+for i in range(12):
+    last_year_pos=int(input("Last year position\n"))
+    local_dict[team_name[i]].reset(last_year_pos)
+
 
 list1=[]
 list2=[]
@@ -146,7 +151,7 @@ df = pd.DataFrame({'home_team_av_points':list1,
 print("here3")
 print(df.head())
 #change csv file name
-df.to_csv('csv/2011-12.csv')
+df.to_csv('csv/2013-14.csv')
 dict_file=open('dict_file.txt','ab')
 for key,values in local_dict.items():
     global_dict[key]=local_dict[key]
