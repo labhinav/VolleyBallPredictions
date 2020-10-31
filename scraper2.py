@@ -105,7 +105,7 @@ for match in matches:
     local_dict[match.away_team].no_of_games_this_season+=1
     local_dict[match.home_team].percentage_of_wins_this_season=local_dict[match.home_team].no_of_wins_this_season/local_dict[match.home_team].no_of_games_this_season*100
     local_dict[match.away_team].percentage_of_wins_this_season=local_dict[match.away_team].no_of_wins_this_season/local_dict[match.away_team].no_of_games_this_season*100
-    sorted_list=sorted(local_dict.values(),key=attrgetter('no_of_wins_this_season',"last_year_position"),reverse=True)
+    sorted_list=sorted(local_dict.values(),key=attrgetter('no_of_wins_this_season'),reverse=True)
     for pos,item in enumerate(sorted_list,1):
         local_dict[item.name].current_position=pos
     local_dict[match.home_team].form=exponential_av(diff,0.2,local_dict[match.home_team].form)
