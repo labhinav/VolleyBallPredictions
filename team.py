@@ -11,7 +11,7 @@ class Team:
         self.home_form=0
         self.away_form=0
         #change date here
-        self.last_game_date=date(2017,1,1)
+        self.last_game_date=date(2018,1,1)
         self.no_of_games_this_season=0
         self.no_of_wins_this_season=0
         self.percentage_of_wins_this_season=50
