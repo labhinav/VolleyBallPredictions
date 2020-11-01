@@ -1,6 +1,6 @@
 If you are scraping data of first season of particular league use scraper.py else use scraper2.py
 
 Values to be updated for each season:
-scraper2.py: line 16,33,149
+scraper2.py: line 16,33,149 ## (16,37,45,157)
 team.py: line 14
 match.py: line 21,23,27,29,31
