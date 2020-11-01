@@ -13,7 +13,7 @@ import pickle
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
 #change html file name
-f=open("html/FlashScore.in_ SuperLiga 2013_2014 Results.html")
+f=open("html/FlashScore.in  SuperLiga 2014_2015 Results.html")
 text=f.read()
 
 res=re.findall("<div class=\"event__time\".*?<div id.*?>",text)
@@ -21,7 +21,7 @@ res=re.findall("<div class=\"event__time\".*?<div id.*?>",text)
 for i in range(len(res)):
     res[i]=re.sub("<.*?>","  ",res[i])
 #LINE 24 IS ONLY FOR 2013-14!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Pls comment it out for other seasons
-res.pop(1)
+#res.pop(1)
 print(res)
 matches = [Match(i) for i in res] 
 matches.reverse()
@@ -154,7 +154,7 @@ df = pd.DataFrame({'home_team_av_points':list1,
 print("here3")
 print(df.head())
 #change csv file name
-df.to_csv('csv/2013-14.csv')
+df.to_csv('csv/2014-15.csv')
 dict_file=open('dict_file.txt','ab')
 for key,values in local_dict.items():
     global_dict[key]=local_dict[key]
