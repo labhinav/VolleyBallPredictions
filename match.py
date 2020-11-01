@@ -19,17 +19,17 @@ class Match:
         self.day=int(self.date[0:2])
         self.month=int(self.date[3:5])
         #update dates
-        self.year=2015
+        self.year=2016
         if(self.month<=4):
-            self.year=2016
+            self.year=2017
         self.importance=0
         self.DATE=date(self.year,self.month,self.day)
         #change dates
-        if(self.DATE>=date(2016,4,10)):
+        if(self.DATE>=date(2017,5,7)):
             self.importance=3
-        elif(self.DATE>=date(2016,3,26)):
+        elif(self.DATE>=date(2017,4,7)):
             self.importance=2
-        elif(self.DATE>=date(2016,3,14)):
+        elif(self.DATE>=date(2017,3,18)):
             self.importance=1
         self.home_av_points=mean(self.home_scores)
         self.away_av_points=mean(self.away_scores)
