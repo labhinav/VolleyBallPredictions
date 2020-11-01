@@ -8,6 +8,7 @@ class Match:
         self.date=temp[0]
         self.home_team=temp[1]
         self.away_team=temp[2]
+        print("Initializing %s %s" %(self.home_team,self.away_team))
         self.home_sets=int(temp[3])
         self.away_sets=int(temp[4])
         self.home_scores=[]

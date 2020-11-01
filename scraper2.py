@@ -13,13 +13,16 @@ import pickle
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
 #change html file name
-f=open("html/FlashScore.in  SuperLiga 2013_2014 Results.html")
+f=open("html/FlashScore.in_ SuperLiga 2013_2014 Results.html")
 text=f.read()
 
 res=re.findall("<div class=\"event__time\".*?<div id.*?>",text)
+# print(res)
 for i in range(len(res)):
     res[i]=re.sub("<.*?>","  ",res[i])
-
+#LINE 24 IS ONLY FOR 2013-14!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Pls comment it out for other seasons
+res.pop(1)
+print(res)
 matches = [Match(i) for i in res] 
 matches.reverse()
 for i in matches:
