@@ -1,0 +1,7 @@
+Abhinav- Data Scraping, Feature Engineering, Hyperparameter Tuning
+Aman- Developing ANN Model, Hyperparameter Tuning
+Aditya- Devloping Remaining Models (SVM, Random Forest, etc)
+Apoorv- Hyperparameter Tuning
+
+Everyone contributed equally for making the report.
+
