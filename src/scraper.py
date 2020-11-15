@@ -13,7 +13,7 @@ import pickle
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
 
-f=open("html/SuperLiga 2010_2011 Results - Volleyball_Brazil.html")
+f=open("../html/SuperLiga 2010_2011 Results - Volleyball_Brazil.html")
 text=f.read()
 # soup=BeautifulSoup(html,"html.parser")
 # print(soup.find_all("div"))
@@ -141,7 +141,7 @@ df = pd.DataFrame({'home_team_av_points':list1,
 })
 print("here3")
 print(df.head())
-df.to_csv('csv/2010-11.csv')
+df.to_csv('../csv/2010-11.csv')
 dict_file=open('dict_file.txt','ab')
 pickle.dump(local_dict,dict_file)
         

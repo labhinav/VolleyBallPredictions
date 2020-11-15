@@ -7,5 +7,5 @@ Please enter team names and last year positions of the team when prompted on com
 
 Training and testing model:-
 
-python3.6 src/model.py
-
+python3.6 src/model_minmax.py
+python3.6 src/model_standard.py
