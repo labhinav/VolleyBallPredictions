@@ -23,6 +23,7 @@ from sklearn import preprocessing
 from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import ShuffleSplit
 from sklearn.model_selection import cross_val_score
+print("imported the needed libraries")
 
 
 #get_ipython().run_line_magic('matplotlib', 'inline')

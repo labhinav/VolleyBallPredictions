@@ -35,7 +35,10 @@ local_dict={}
 #change no of teams
 team_name = []
 for i in range(12):
-    team=input("Enter team name\n")
+    if i > 0:
+        team=input("Enter another team name\n")
+    else:
+        team=input("Enter team name\n")
     team_name.append(team)
     if(team in global_dict):
         local_dict[team]=global_dict[team]
