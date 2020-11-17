@@ -154,7 +154,7 @@ df = pd.DataFrame({'home_team_av_points':list1,
 print("here3")
 print(df.head())
 #change csv file name
-df.to_csv('../csv/2018-19.csv')
+df.to_csv('../data/2018-19.csv')
 dict_file=open('dict_file.txt','ab')
 for key,values in local_dict.items():
     global_dict[key]=local_dict[key]

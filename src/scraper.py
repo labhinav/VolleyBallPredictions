@@ -141,7 +141,7 @@ df = pd.DataFrame({'home_team_av_points':list1,
 })
 print("here3")
 print(df.head())
-df.to_csv('../csv/2010-11.csv')
+df.to_csv('../data/2010-11.csv')
 dict_file=open('dict_file.txt','ab')
 pickle.dump(local_dict,dict_file)
         
