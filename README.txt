@@ -1,4 +1,7 @@
 Data scraping:-
+
+For scraping,team names and previous years position needs to be entered manually. Remaining data is scraped from the html files.
+ 
 For first season(2010-11), run scraper.py as follows:
 cd src
 python3 scraper.py
