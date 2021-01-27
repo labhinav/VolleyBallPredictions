@@ -1,0 +1,146 @@
+,Date,away_team,home_team,month,year
+0,7,Sao Jose dos Campos,Minas,11,2015
+1,9,JF Volei,Voleisul/Paqueta,11,2015
+2,9,Funvic,America Volei,11,2015
+3,10,Sesi,Canoas,11,2015
+4,12,Canoas,Sada Cruzeiro,11,2015
+5,13,Voleisul/Paqueta,Sao Jose dos Campos,11,2015
+6,13,Maringa,JF Volei,11,2015
+7,13,America Volei,Sesi,11,2015
+8,13,Bento Volei,Funvic,11,2015
+9,13,Minas,Brasil Volei Clube,11,2015
+10,15,Canoas,JF Volei,11,2015
+11,15,America Volei,Brasil Volei Clube,11,2015
+12,15,Voleisul/Paqueta,Funvic,11,2015
+13,15,Bento Volei,Sao Jose dos Campos,11,2015
+14,15,Maringa,Sada Cruzeiro,11,2015
+15,15,Minas,Sesi,11,2015
+16,19,Sao Jose dos Campos,America Volei,11,2015
+17,19,Sada Cruzeiro,Bento Volei,11,2015
+18,21,Sada Cruzeiro,Voleisul/Paqueta,11,2015
+19,21,JF Volei,Bento Volei,11,2015
+20,21,Sesi,Maringa,11,2015
+21,21,Minas,Funvic,11,2015
+22,22,Brasil Volei Clube,Canoas,11,2015
+23,26,Brasil Volei Clube,Funvic,11,2015
+24,26,Sesi,Sao Jose dos Campos,11,2015
+25,26,Minas,JF Volei,11,2015
+26,27,Sada Cruzeiro,America Volei,11,2015
+27,27,Maringa,Voleisul/Paqueta,11,2015
+28,27,Canoas,Bento Volei,11,2015
+29,29,JF Volei,America Volei,11,2015
+30,29,Brasil Volei Clube,Sao Jose dos Campos,11,2015
+31,29,Maringa,Bento Volei,11,2015
+32,29,Sesi,Funvic,11,2015
+33,29,Minas,Sada Cruzeiro,11,2015
+34,2,Canoas,Voleisul/Paqueta,12,2015
+35,5,Sao Jose dos Campos,Sada Cruzeiro,12,2015
+36,6,America Volei,Maringa,12,2015
+37,6,Funvic,JF Volei,12,2015
+38,6,Brasil Volei Clube,Voleisul/Paqueta,12,2015
+39,6,Sesi,Bento Volei,12,2015
+40,6,Minas,Canoas,12,2015
+41,11,Sao Jose dos Campos,Maringa,12,2015
+42,11,JF Volei,Sesi,12,2015
+43,11,Canoas,Funvic,12,2015
+44,11,Voleisul/Paqueta,America Volei,12,2015
+45,11,Sada Cruzeiro,Brasil Volei Clube,12,2015
+46,12,JF Volei,Brasil Volei Clube,12,2015
+47,13,Sada Cruzeiro,Sesi,12,2015
+48,13,Bento Volei,America Volei,12,2015
+49,13,Maringa,Funvic,12,2015
+50,13,Canoas,Sao Jose dos Campos,12,2015
+51,13,Voleisul/Paqueta,Minas,12,2015
+52,15,Bento Volei,Minas,12,2015
+53,18,America Volei,Canoas,12,2015
+54,18,Sesi,Voleisul/Paqueta,12,2015
+55,18,Brasil Volei Clube,Bento Volei,12,2015
+56,19,Minas,Maringa,12,2015
+57,20,Sao Jose dos Campos,JF Volei,12,2015
+58,20,Funvic,Sada Cruzeiro,12,2015
+59,22,Brasil Volei Clube,Sesi,12,2015
+60,22,JF Volei,Sada Cruzeiro,12,2015
+61,23,America Volei,Minas,12,2015
+62,23,Canoas,Maringa,12,2015
+63,23,Sao Jose dos Campos,Funvic,12,2015
+64,24,Bento Volei,Voleisul/Paqueta,12,2015
+65,10,Voleisul/Paqueta,JF Volei,1,2016
+66,10,Minas,Sao Jose dos Campos,1,2016
+67,10,Bento Volei,Sada Cruzeiro,1,2016
+68,10,Canoas,Sesi,1,2016
+69,10,America Volei,Funvic,1,2016
+70,17,Bento Volei,JF Volei,1,2016
+71,17,Canoas,Brasil Volei Clube,1,2016
+72,17,Voleisul/Paqueta,Sada Cruzeiro,1,2016
+73,17,Maringa,Sesi,1,2016
+74,21,Funvic,Minas,1,2016
+75,22,America Volei,Sao Jose dos Campos,1,2016
+76,29,JF Volei,Maringa,1,2016
+77,29,Sao Jose dos Campos,Voleisul/Paqueta,1,2016
+78,29,Sada Cruzeiro,Canoas,1,2016
+79,29,Funvic,Bento Volei,1,2016
+80,29,Sesi,America Volei,1,2016
+81,29,Brasil Volei Clube,Minas,1,2016
+82,30,Sada Cruzeiro,Maringa,1,2016
+83,30,Sesi,Minas,1,2016
+84,31,JF Volei,Canoas,1,2016
+85,31,Brasil Volei Clube,America Volei,1,2016
+86,31,Funvic,Voleisul/Paqueta,1,2016
+87,31,Sao Jose dos Campos,Bento Volei,1,2016
+88,5,JF Volei,Minas,2,2016
+89,5,Bento Volei,Maringa,2,2016
+90,5,Sao Jose dos Campos,Sesi,2,2016
+91,5,America Volei,Sada Cruzeiro,2,2016
+92,5,Voleisul/Paqueta,Canoas,2,2016
+93,5,Funvic,Brasil Volei Clube,2,2016
+94,13,Funvic,Sesi,2,2016
+95,13,Sao Jose dos Campos,Brasil Volei Clube,2,2016
+96,14,Voleisul/Paqueta,Maringa,2,2016
+97,14,America Volei,JF Volei,2,2016
+98,14,Bento Volei,Canoas,2,2016
+99,14,Sada Cruzeiro,Minas,2,2016
+100,20,Brasil Volei Clube,Maringa,2,2016
+101,20,Sesi,JF Volei,2,2016
+102,23,Canoas,Minas,2,2016
+103,26,Sada Cruzeiro,Sao Jose dos Campos,2,2016
+104,26,Bento Volei,Sesi,2,2016
+105,26,JF Volei,Funvic,2,2016
+106,26,Voleisul/Paqueta,Brasil Volei Clube,2,2016
+107,26,Maringa,America Volei,2,2016
+108,27,Sada Cruzeiro,Funvic,2,2016
+109,28,Maringa,Minas,2,2016
+110,28,Canoas,America Volei,2,2016
+111,28,JF Volei,Sao Jose dos Campos,2,2016
+112,28,Voleisul/Paqueta,Sesi,2,2016
+113,1,Bento Volei,Brasil Volei Clube,3,2016
+114,4,Maringa,Sao Jose dos Campos,3,2016
+115,4,America Volei,Voleisul/Paqueta,3,2016
+116,4,Funvic,Canoas,3,2016
+117,4,Minas,Bento Volei,3,2016
+118,4,Brasil Volei Clube,Sada Cruzeiro,3,2016
+119,5,Brasil Volei Clube,JF Volei,3,2016
+120,6,Funvic,Maringa,3,2016
+121,6,Sao Jose dos Campos,Canoas,3,2016
+122,6,Minas,Voleisul/Paqueta,3,2016
+123,6,America Volei,Bento Volei,3,2016
+124,6,Sesi,Sada Cruzeiro,3,2016
+125,10,Funvic,Sao Jose dos Campos,3,2016
+126,10,Sada Cruzeiro,JF Volei,3,2016
+127,10,Maringa,Canoas,3,2016
+128,10,Sesi,Brasil Volei Clube,3,2016
+129,10,Voleisul/Paqueta,Bento Volei,3,2016
+130,10,Minas,America Volei,3,2016
+131,14,Bento Volei,Brasil Volei Clube,3,2016
+132,14,America Volei,Sesi,3,2016
+133,17,Sao Jose dos Campos,Sada Cruzeiro,3,2016
+134,18,Minas,Funvic,3,2016
+135,19,Brasil Volei Clube,Bento Volei,3,2016
+136,19,Sesi,America Volei,3,2016
+137,20,Sada Cruzeiro,Sao Jose dos Campos,3,2016
+138,20,Funvic,Minas,3,2016
+139,26,Brasil Volei Clube,Funvic,3,2016
+140,27,Sesi,Sada Cruzeiro,3,2016
+141,2,Sada Cruzeiro,Sesi,4,2016
+142,2,Funvic,Brasil Volei Clube,4,2016
+143,6,Brasil Volei Clube,Funvic,4,2016
+144,10,Brasil Volei Clube,Sada Cruzeiro,4,2016

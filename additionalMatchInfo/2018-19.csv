@@ -1,0 +1,152 @@
+,Date,away_team,home_team,month,year
+0,27,Sada Cruzeiro,UM Itapetininga,10,2018
+1,27,Sesi,Volei Ribeirao,10,2018
+2,28,Sao Judas,Volei Renata,10,2018
+3,28,SESC-RJ,Maringa,10,2018
+4,28,Minas,Corinthians/Guarulhos,10,2018
+5,28,Funvic,Ponta Grossa,10,2018
+6,2,Maringa,Sesi,11,2018
+7,2,Corinthians/Guarulhos,Funvic,11,2018
+8,4,Sao Judas,UM Itapetininga,11,2018
+9,4,Volei Ribeirao,Sada Cruzeiro,11,2018
+10,4,Ponta Grossa,SESC-RJ,11,2018
+11,6,Volei Renata,Minas,11,2018
+12,8,Sada Cruzeiro,Corinthians/Guarulhos,11,2018
+13,10,Maringa,Sada Cruzeiro,11,2018
+14,10,SESC-RJ,Corinthians/Guarulhos,11,2018
+15,10,Minas,Sao Judas,11,2018
+16,11,UM Itapetininga,Volei Ribeirao,11,2018
+17,11,Funvic,Volei Renata,11,2018
+18,11,Sesi,Ponta Grossa,11,2018
+19,17,Ponta Grossa,Sada Cruzeiro,11,2018
+20,18,Maringa,Volei Ribeirao,11,2018
+21,18,Minas,UM Itapetininga,11,2018
+22,18,Sao Judas,Funvic,11,2018
+23,18,Volei Renata,SESC-RJ,11,2018
+24,18,Corinthians/Guarulhos,Sesi,11,2018
+25,22,UM Itapetininga,Maringa,11,2018
+26,22,Funvic,Minas,11,2018
+27,22,SESC-RJ,Sao Judas,11,2018
+28,22,Volei Ribeirao,Ponta Grossa,11,2018
+29,23,Sesi,Volei Renata,11,2018
+30,25,Corinthians/Guarulhos,Volei Ribeirao,11,2018
+31,25,Sao Judas,Sesi,11,2018
+32,25,Ponta Grossa,Maringa,11,2018
+33,25,Minas,SESC-RJ,11,2018
+34,1,UM Itapetininga,Ponta Grossa,12,2018
+35,1,Sesi,Minas,12,2018
+36,2,Volei Ribeirao,Volei Renata,12,2018
+37,2,Maringa,Corinthians/Guarulhos,12,2018
+38,2,SESC-RJ,Funvic,12,2018
+39,7,Sao Judas,Volei Ribeirao,12,2018
+40,9,Corinthians/Guarulhos,Ponta Grossa,12,2018
+41,9,Funvic,Sesi,12,2018
+42,9,SESC-RJ,UM Itapetininga,12,2018
+43,9,Volei Renata,Maringa,12,2018
+44,9,Sada Cruzeiro,Minas,12,2018
+45,13,Sesi,SESC-RJ,12,2018
+46,13,Ponta Grossa,Volei Renata,12,2018
+47,13,Maringa,Sao Judas,12,2018
+48,13,Sada Cruzeiro,Funvic,12,2018
+49,13,UM Itapetininga,Corinthians/Guarulhos,12,2018
+50,14,Volei Ribeirao,Minas,12,2018
+51,15,Sesi,UM Itapetininga,12,2018
+52,16,Volei Renata,Corinthians/Guarulhos,12,2018
+53,16,SESC-RJ,Sada Cruzeiro,12,2018
+54,16,Minas,Maringa,12,2018
+55,16,Sao Judas,Ponta Grossa,12,2018
+56,17,Funvic,Volei Ribeirao,12,2018
+57,20,Funvic,UM Itapetininga,12,2018
+58,21,Sada Cruzeiro,Sao Judas,12,2018
+59,22,Volei Ribeirao,SESC-RJ,12,2018
+60,22,Corinthians/Guarulhos,Sao Judas,12,2018
+61,23,UM Itapetininga,Volei Renata,12,2018
+62,23,Ponta Grossa,Minas,12,2018
+63,23,Funvic,Maringa,12,2018
+64,23,Sada Cruzeiro,Sesi,12,2018
+65,12,Corinthians/Guarulhos,Minas,1,2019
+66,13,Ponta Grossa,Funvic,1,2019
+67,13,Volei Ribeirao,Sesi,1,2019
+68,13,Maringa,SESC-RJ,1,2019
+69,13,UM Itapetininga,Sada Cruzeiro,1,2019
+70,14,Volei Renata,Sao Judas,1,2019
+71,19,UM Itapetininga,Sao Judas,1,2019
+72,20,Sada Cruzeiro,Volei Ribeirao,1,2019
+73,20,Minas,Volei Renata,1,2019
+74,20,Sesi,Maringa,1,2019
+75,20,SESC-RJ,Ponta Grossa,1,2019
+76,21,Funvic,Corinthians/Guarulhos,1,2019
+77,30,Sao Judas,Minas,1,2019
+78,31,Ponta Grossa,Sesi,1,2019
+79,31,Volei Ribeirao,UM Itapetininga,1,2019
+80,31,Corinthians/Guarulhos,SESC-RJ,1,2019
+81,31,Volei Renata,Funvic,1,2019
+82,1,Sada Cruzeiro,Maringa,2,2019
+83,2,Funvic,Sao Judas,2,2019
+84,2,UM Itapetininga,Minas,2,2019
+85,3,Sesi,Corinthians/Guarulhos,2,2019
+86,3,SESC-RJ,Volei Renata,2,2019
+87,3,Volei Ribeirao,Maringa,2,2019
+88,3,Sada Cruzeiro,Ponta Grossa,2,2019
+89,8,Minas,Funvic,2,2019
+90,9,Volei Renata,Sesi,2,2019
+91,10,Ponta Grossa,Volei Ribeirao,2,2019
+92,10,Maringa,UM Itapetininga,2,2019
+93,10,Corinthians/Guarulhos,Sada Cruzeiro,2,2019
+94,10,Sao Judas,SESC-RJ,2,2019
+95,16,Volei Ribeirao,Corinthians/Guarulhos,2,2019
+96,16,Sesi,Sao Judas,2,2019
+97,17,UM Itapetininga,Funvic,2,2019
+98,17,Volei Renata,Sada Cruzeiro,2,2019
+99,17,Maringa,Ponta Grossa,2,2019
+100,17,SESC-RJ,Minas,2,2019
+101,20,Corinthians/Guarulhos,Maringa,2,2019
+102,21,Funvic,SESC-RJ,2,2019
+103,21,Volei Renata,Volei Ribeirao,2,2019
+104,21,Ponta Grossa,UM Itapetininga,2,2019
+105,21,Minas,Sesi,2,2019
+106,21,Sao Judas,Sada Cruzeiro,2,2019
+107,23,Minas,Sada Cruzeiro,2,2019
+108,23,Volei Ribeirao,Sao Judas,2,2019
+109,24,Maringa,Volei Renata,2,2019
+110,24,Ponta Grossa,Corinthians/Guarulhos,2,2019
+111,24,UM Itapetininga,SESC-RJ,2,2019
+112,24,Sesi,Funvic,2,2019
+113,1,Sao Judas,Maringa,3,2019
+114,1,Corinthians/Guarulhos,UM Itapetininga,3,2019
+115,1,Volei Ribeirao,Funvic,3,2019
+116,1,Volei Renata,Ponta Grossa,3,2019
+117,1,SESC-RJ,Sesi,3,2019
+118,9,Ponta Grossa,Sao Judas,3,2019
+119,10,Maringa,Minas,3,2019
+120,10,UM Itapetininga,Sesi,3,2019
+121,10,Corinthians/Guarulhos,Volei Renata,3,2019
+122,10,Sada Cruzeiro,SESC-RJ,3,2019
+123,14,Minas,Volei Ribeirao,3,2019
+124,14,Funvic,Sada Cruzeiro,3,2019
+125,17,SESC-RJ,Volei Ribeirao,3,2019
+126,17,Volei Renata,UM Itapetininga,3,2019
+127,17,Sesi,Sada Cruzeiro,3,2019
+128,17,Minas,Ponta Grossa,3,2019
+129,17,Maringa,Funvic,3,2019
+130,17,Sao Judas,Corinthians/Guarulhos,3,2019
+131,23,Volei Renata,Funvic,3,2019
+132,23,Minas,SESC-RJ,3,2019
+133,24,UM Itapetininga,Sesi,3,2019
+134,25,Maringa,Sada Cruzeiro,3,2019
+135,28,Funvic,Volei Renata,3,2019
+136,28,SESC-RJ,Minas,3,2019
+137,29,Sesi,UM Itapetininga,3,2019
+138,29,Sada Cruzeiro,Maringa,3,2019
+139,30,Volei Renata,Funvic,3,2019
+140,7,SESC-RJ,Sesi,4,2019
+141,7,Funvic,Sada Cruzeiro,4,2019
+142,10,Sada Cruzeiro,Funvic,4,2019
+143,11,Sesi,SESC-RJ,4,2019
+144,14,SESC-RJ,Sesi,4,2019
+145,14,Funvic,Sada Cruzeiro,4,2019
+146,24,Funvic,Sesi,4,2019
+147,28,Sesi,Funvic,4,2019
+148,1,Funvic,Sesi,5,2018
+149,5,Sesi,Funvic,5,2018
+150,12,Funvic,Sesi,5,2018

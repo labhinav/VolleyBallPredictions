@@ -1,0 +1,223 @@
+,Date,away_team,home_team,month,year
+0,7,Santo Andre,America Volei,11,2010
+1,9,Fatima UCS,Cimed,11,2010
+2,11,Sada Cruzeiro,Sesi,11,2010
+3,11,Minas,Pinheiros,11,2010
+4,13,Sada Cruzeiro,Pinheiros,11,2010
+5,13,Minas,Sesi,11,2010
+6,14,Londrina,America Volei,11,2010
+7,14,Volta Redonda,Cimed,11,2010
+8,19,Londrina,Ulbra Sao Caetano,11,2010
+9,19,Santo Andre,Sao Bernardo,11,2010
+10,19,Blumenau,Medley,11,2010
+11,19,America Volei,Fatima UCS,11,2010
+12,20,Minas,Sada Cruzeiro,11,2010
+13,20,Londrina,Sao Bernardo,11,2010
+14,21,America Volei,Volta Redonda,11,2010
+15,21,Cimed,Medley,11,2010
+16,21,Santo Andre,Ulbra Sao Caetano,11,2010
+17,26,Volei Futuro,Volta Redonda,11,2010
+18,26,Sada Cruzeiro,Santo Andre,11,2010
+19,26,Sao Bernardo,America Volei,11,2010
+20,26,Medley,Fatima UCS,11,2010
+21,26,Sesi,Cimed,11,2010
+22,26,Pinheiros,Blumenau,11,2010
+23,26,Minas,Londrina,11,2010
+24,28,Medley,Volta Redonda,11,2010
+25,28,Volei Futuro,Fatima UCS,11,2010
+26,28,Sesi,Blumenau,11,2010
+27,28,Ulbra Sao Caetano,America Volei,11,2010
+28,28,Sada Cruzeiro,Londrina,11,2010
+29,28,Pinheiros,Cimed,11,2010
+30,28,Minas,Santo Andre,11,2010
+31,2,Volta Redonda,Sesi,12,2010
+32,2,Ulbra Sao Caetano,Sada Cruzeiro,12,2010
+33,2,America Volei,Volei Futuro,12,2010
+34,2,Sao Bernardo,Minas,12,2010
+35,2,Londrina,Cimed,12,2010
+36,2,Santo Andre,Blumenau,12,2010
+37,2,Fatima UCS,Pinheiros,12,2010
+38,5,Ulbra Sao Caetano,Minas,12,2010
+39,5,America Volei,Medley,12,2010
+40,5,Fatima UCS,Sesi,12,2010
+41,5,Volta Redonda,Pinheiros,12,2010
+42,5,Sao Bernardo,Sada Cruzeiro,12,2010
+43,5,Londrina,Blumenau,12,2010
+44,5,Santo Andre,Cimed,12,2010
+45,9,Pinheiros,Medley,12,2010
+46,10,Cimed,Ulbra Sao Caetano,12,2010
+47,10,Blumenau,Sao Bernardo,12,2010
+48,10,Volta Redonda,Santo Andre,12,2010
+49,10,Minas,America Volei,12,2010
+50,10,Sesi,Volei Futuro,12,2010
+51,10,Fatima UCS,Londrina,12,2010
+52,11,Blumenau,Ulbra Sao Caetano,12,2010
+53,11,Pinheiros,Volei Futuro,12,2010
+54,11,Fatima UCS,Santo Andre,12,2010
+55,12,Sesi,Medley,12,2010
+56,12,Sada Cruzeiro,America Volei,12,2010
+57,12,Volta Redonda,Londrina,12,2010
+58,14,Cimed,Volei Futuro,12,2010
+59,15,Medley,Minas,12,2010
+60,16,Sao Bernardo,Pinheiros,12,2010
+61,17,Sesi,Ulbra Sao Caetano,12,2010
+62,17,Volei Futuro,Sada Cruzeiro,12,2010
+63,19,Medley,Sada Cruzeiro,12,2010
+64,19,Volei Futuro,Minas,12,2010
+65,19,Santo Andre,Londrina,12,2010
+66,19,Pinheiros,Sesi,12,2010
+67,21,Fatima UCS,Blumenau,12,2010
+68,22,Volei Futuro,Medley,12,2010
+69,23,Pinheiros,Ulbra Sao Caetano,12,2010
+70,23,Sesi,Sao Bernardo,12,2010
+71,31,Blumenau,Cimed,12,2010
+72,5,Volei Futuro,Londrina,1,2011
+73,6,Minas,Blumenau,1,2011
+74,7,Ulbra Sao Caetano,Volta Redonda,1,2011
+75,7,Medley,Santo Andre,1,2011
+76,7,America Volei,Sesi,1,2011
+77,7,Sao Bernardo,Fatima UCS,1,2011
+78,7,Sada Cruzeiro,Cimed,1,2011
+79,8,Minas,Cimed,1,2011
+80,8,Sao Bernardo,Volta Redonda,1,2011
+81,8,Volei Futuro,Santo Andre,1,2011
+82,9,America Volei,Pinheiros,1,2011
+83,9,Ulbra Sao Caetano,Fatima UCS,1,2011
+84,9,Sada Cruzeiro,Blumenau,1,2011
+85,9,Medley,Londrina,1,2011
+86,12,Sao Bernardo,Volei Futuro,1,2011
+87,14,Londrina,Sesi,1,2011
+88,14,Volta Redonda,Sada Cruzeiro,1,2011
+89,14,Ulbra Sao Caetano,Medley,1,2011
+90,14,Blumenau,America Volei,1,2011
+91,14,Fatima UCS,Minas,1,2011
+92,14,Santo Andre,Pinheiros,1,2011
+93,16,Fatima UCS,Sada Cruzeiro,1,2011
+94,16,Volta Redonda,Minas,1,2011
+95,16,Sao Bernardo,Medley,1,2011
+96,16,Santo Andre,Sesi,1,2011
+97,16,Londrina,Pinheiros,1,2011
+98,16,Cimed,America Volei,1,2011
+99,16,Ulbra Sao Caetano,Volei Futuro,1,2011
+100,20,Ulbra Sao Caetano,Sesi,1,2011
+101,20,Cimed,Sao Bernardo,1,2011
+102,20,Blumenau,Volei Futuro,1,2011
+103,22,Medley,Volei Futuro,1,2011
+104,22,Sao Bernardo,Ulbra Sao Caetano,1,2011
+105,22,Londrina,Santo Andre,1,2011
+106,23,Sada Cruzeiro,Minas,1,2011
+107,23,Volta Redonda,Fatima UCS,1,2011
+108,23,Cimed,Blumenau,1,2011
+109,25,Sesi,Pinheiros,1,2011
+110,26,Minas,Medley,1,2011
+111,28,Blumenau,Volta Redonda,1,2011
+112,28,America Volei,Santo Andre,1,2011
+113,28,Cimed,Fatima UCS,1,2011
+114,28,Pinheiros,Sao Bernardo,1,2011
+115,29,Sada Cruzeiro,Volei Futuro,1,2011
+116,29,Cimed,Volta Redonda,1,2011
+117,30,Sao Bernardo,Sesi,1,2011
+118,30,Blumenau,Fatima UCS,1,2011
+119,30,Ulbra Sao Caetano,Pinheiros,1,2011
+120,31,Sada Cruzeiro,Medley,1,2011
+121,31,Minas,Volei Futuro,1,2011
+122,31,America Volei,Londrina,1,2011
+123,3,Sesi,Minas,2,2011
+124,3,Pinheiros,Sada Cruzeiro,2,2011
+125,4,Volei Futuro,Cimed,2,2011
+126,4,Sao Bernardo,Santo Andre,2,2011
+127,4,Fatima UCS,America Volei,2,2011
+128,4,Medley,Blumenau,2,2011
+129,4,Ulbra Sao Caetano,Londrina,2,2011
+130,5,Sesi,Sada Cruzeiro,2,2011
+131,5,Ulbra Sao Caetano,Santo Andre,2,2011
+132,6,Volei Futuro,Blumenau,2,2011
+133,6,Volta Redonda,America Volei,2,2011
+134,6,Medley,Cimed,2,2011
+135,6,Sao Bernardo,Londrina,2,2011
+136,6,Pinheiros,Minas,2,2011
+137,9,Londrina,Minas,2,2011
+138,11,America Volei,Sao Bernardo,2,2011
+139,11,Londrina,Sada Cruzeiro,2,2011
+140,11,Fatima UCS,Medley,2,2011
+141,11,Volta Redonda,Volei Futuro,2,2011
+142,11,Santo Andre,Minas,2,2011
+143,11,Blumenau,Pinheiros,2,2011
+144,11,Cimed,Sesi,2,2011
+145,12,America Volei,Ulbra Sao Caetano,2,2011
+146,12,Cimed,Pinheiros,2,2011
+147,13,Santo Andre,Sada Cruzeiro,2,2011
+148,13,Volta Redonda,Medley,2,2011
+149,13,Blumenau,Sesi,2,2011
+150,13,Fatima UCS,Volei Futuro,2,2011
+151,18,Sesi,Volta Redonda,2,2011
+152,18,Minas,Ulbra Sao Caetano,2,2011
+153,18,Sada Cruzeiro,Sao Bernardo,2,2011
+154,18,Pinheiros,Fatima UCS,2,2011
+155,19,Volei Futuro,America Volei,2,2011
+156,19,Sada Cruzeiro,Ulbra Sao Caetano,2,2011
+157,19,Pinheiros,Volta Redonda,2,2011
+158,20,Minas,Sao Bernardo,2,2011
+159,20,Sesi,Fatima UCS,2,2011
+160,22,Medley,America Volei,2,2011
+161,25,Santo Andre,Volta Redonda,2,2011
+162,25,Volei Futuro,Sesi,2,2011
+163,25,America Volei,Minas,2,2011
+164,25,Londrina,Fatima UCS,2,2011
+165,25,Ulbra Sao Caetano,Cimed,2,2011
+166,25,Sao Bernardo,Blumenau,2,2011
+167,25,Medley,Pinheiros,2,2011
+168,26,America Volei,Sada Cruzeiro,2,2011
+169,26,Londrina,Volta Redonda,2,2011
+170,27,Volei Futuro,Pinheiros,2,2011
+171,27,Santo Andre,Fatima UCS,2,2011
+172,27,Ulbra Sao Caetano,Blumenau,2,2011
+173,27,Sao Bernardo,Cimed,2,2011
+174,1,Medley,Sesi,3,2011
+175,3,Blumenau,Santo Andre,3,2011
+176,3,Cimed,Londrina,3,2011
+177,4,Cimed,Santo Andre,3,2011
+178,5,Blumenau,Londrina,3,2011
+179,11,Volta Redonda,Ulbra Sao Caetano,3,2011
+180,11,Cimed,Sada Cruzeiro,3,2011
+181,11,Santo Andre,Medley,3,2011
+182,11,Sesi,America Volei,3,2011
+183,11,Londrina,Volei Futuro,3,2011
+184,11,Fatima UCS,Sao Bernardo,3,2011
+185,11,Blumenau,Minas,3,2011
+186,12,Fatima UCS,Ulbra Sao Caetano,3,2011
+187,12,Cimed,Minas,3,2011
+188,12,Volta Redonda,Sao Bernardo,3,2011
+189,13,Blumenau,Sada Cruzeiro,3,2011
+190,13,Londrina,Medley,3,2011
+191,13,Pinheiros,America Volei,3,2011
+192,13,Santo Andre,Volei Futuro,3,2011
+193,15,Sada Cruzeiro,Volta Redonda,3,2011
+194,15,Medley,Ulbra Sao Caetano,3,2011
+195,15,Volei Futuro,Sao Bernardo,3,2011
+196,15,Pinheiros,Santo Andre,3,2011
+197,16,Minas,Fatima UCS,3,2011
+198,16,America Volei,Blumenau,3,2011
+199,16,Sesi,Londrina,3,2011
+200,18,Minas,Volta Redonda,3,2011
+201,18,Volei Futuro,Ulbra Sao Caetano,3,2011
+202,18,Medley,Sao Bernardo,3,2011
+203,18,Sesi,Santo Andre,3,2011
+204,18,Pinheiros,Londrina,3,2011
+205,18,Sada Cruzeiro,Fatima UCS,3,2011
+206,18,America Volei,Cimed,3,2011
+207,22,Medley,Sesi,3,2011
+208,22,Minas,America Volei,3,2011
+209,23,Pinheiros,Sada Cruzeiro,3,2011
+210,23,Volei Futuro,Cimed,3,2011
+211,25,Sesi,Medley,3,2011
+212,25,America Volei,Minas,3,2011
+213,26,Sada Cruzeiro,Pinheiros,3,2011
+214,26,Cimed,Volei Futuro,3,2011
+215,31,Minas,Sesi,3,2011
+216,2,Volei Futuro,Sada Cruzeiro,4,2011
+217,3,Sesi,Minas,4,2011
+218,9,Minas,Sesi,4,2011
+219,9,Sada Cruzeiro,Volei Futuro,4,2011
+220,16,Volei Futuro,Sada Cruzeiro,4,2011
+221,25,Sada Cruzeiro,Sesi,4,2011
