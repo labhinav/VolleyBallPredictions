@@ -1,0 +1,106 @@
+,Date,away_team,home_team,month,year
+0,1,Sao Bernardo,JF Volei,12,2013
+1,1,Volta Redonda,Funvic,12,2013
+2,1,Canoas,America Volei,12,2013
+3,1,Sesi,Maringa,12,2013
+4,1,Brasil Volei Clube,RJX,12,2013
+5,4,Sada Cruzeiro,Sesi,12,2013
+6,5,Maringa,Sao Bernardo,12,2013
+7,5,RJX,Minas,12,2013
+8,5,JF Volei,Volta Redonda,12,2013
+9,5,Funvic,Canoas,12,2013
+10,6,America Volei,Brasil Volei Clube,12,2013
+11,7,Volta Redonda,Sao Bernardo,12,2013
+12,8,Canoas,JF Volei,12,2013
+13,8,Brasil Volei Clube,Funvic,12,2013
+14,8,Minas,America Volei,12,2013
+15,8,Sada Cruzeiro,Maringa,12,2013
+16,8,Sesi,RJX,12,2013
+17,11,RJX,Canoas,12,2013
+18,11,Sao Bernardo,Minas,12,2013
+19,14,JF Volei,Brasil Volei Clube,12,2013
+20,15,Funvic,Minas,12,2013
+21,15,America Volei,Sesi,12,2013
+22,15,Sao Bernardo,Canoas,12,2013
+23,15,Maringa,Volta Redonda,12,2013
+24,15,RJX,Sada Cruzeiro,12,2013
+25,19,Sesi,Minas,12,2013
+26,20,Brasil Volei Clube,Sada Cruzeiro,12,2013
+27,21,Canoas,Volta Redonda,12,2013
+28,22,RJX,Maringa,12,2013
+29,22,Sao Bernardo,Brasil Volei Clube,12,2013
+30,23,Funvic,Sesi,12,2013
+31,29,JF Volei,Sesi,12,2013
+32,29,America Volei,RJX,12,2013
+33,29,Sada Cruzeiro,Funvic,12,2013
+34,29,Maringa,Canoas,12,2013
+35,29,Minas,Sao Bernardo,12,2013
+36,30,Brasil Volei Clube,Volta Redonda,12,2013
+37,8,Volta Redonda,Minas,1,2014
+38,8,Funvic,RJX,1,2014
+39,8,America Volei,Maringa,1,2014
+40,8,Sada Cruzeiro,JF Volei,1,2014
+41,8,Canoas,Brasil Volei Clube,1,2014
+42,9,Sao Bernardo,Sesi,1,2014
+43,11,Sada Cruzeiro,Sao Bernardo,1,2014
+44,11,America Volei,Funvic,1,2014
+45,12,RJX,JF Volei,1,2014
+46,12,Maringa,Brasil Volei Clube,1,2014
+47,12,Sesi,Volta Redonda,1,2014
+48,12,Minas,Canoas,1,2014
+49,19,Volta Redonda,Sada Cruzeiro,1,2014
+50,19,Brasil Volei Clube,Minas,1,2014
+51,19,Sao Bernardo,RJX,1,2014
+52,19,Sesi,Canoas,1,2014
+53,19,JF Volei,America Volei,1,2014
+54,30,JF Volei,Minas,1,2014
+55,31,Sada Cruzeiro,America Volei,1,2014
+56,1,America Volei,Sao Bernardo,2,2014
+57,2,Maringa,Minas,2,2014
+58,2,Funvic,JF Volei,2,2014
+59,2,Sada Cruzeiro,Canoas,2,2014
+60,2,RJX,Volta Redonda,2,2014
+61,2,Sesi,Brasil Volei Clube,2,2014
+62,5,America Volei,Minas,2,2014
+63,5,Maringa,Sada Cruzeiro,2,2014
+64,7,Minas,Sesi,2,2014
+65,9,Canoas,RJX,2,2014
+66,9,Sao Bernardo,Funvic,2,2014
+67,9,Volta Redonda,America Volei,2,2014
+68,9,JF Volei,Maringa,2,2014
+69,9,Sada Cruzeiro,Brasil Volei Clube,2,2014
+70,12,Maringa,Sesi,2,2014
+71,12,Funvic,Volta Redonda,2,2014
+72,12,America Volei,Canoas,2,2014
+73,12,JF Volei,Sao Bernardo,2,2014
+74,12,Sada Cruzeiro,Minas,2,2014
+75,13,RJX,Brasil Volei Clube,2,2014
+76,16,Volta Redonda,JF Volei,2,2014
+77,16,Canoas,Funvic,2,2014
+78,16,Brasil Volei Clube,America Volei,2,2014
+79,16,Minas,RJX,2,2014
+80,16,Sao Bernardo,Maringa,2,2014
+81,16,Sesi,Sada Cruzeiro,2,2014
+82,19,Funvic,Maringa,2,2014
+83,22,Sao Bernardo,Volta Redonda,2,2014
+84,23,JF Volei,Canoas,2,2014
+85,23,Funvic,Brasil Volei Clube,2,2014
+86,23,RJX,Sesi,2,2014
+87,27,Canoas,Sao Bernardo,2,2014
+88,27,Sada Cruzeiro,RJX,2,2014
+89,27,Volta Redonda,Maringa,2,2014
+90,27,Brasil Volei Clube,JF Volei,2,2014
+91,27,Minas,Funvic,2,2014
+92,27,Sesi,America Volei,2,2014
+93,8,Canoas,Brasil Volei Clube,3,2014
+94,8,RJX,Minas,3,2014
+95,9,Maringa,Sada Cruzeiro,3,2014
+96,9,Sao Bernardo,Sesi,3,2014
+97,11,Brasil Volei Clube,Canoas,3,2014
+98,12,Minas,RJX,3,2014
+99,14,Sada Cruzeiro,Maringa,3,2014
+100,15,Sesi,Sao Bernardo,3,2014
+101,23,Minas,Sada Cruzeiro,3,2014
+102,26,Brasil Volei Clube,Sesi,3,2014
+103,29,Sada Cruzeiro,Minas,3,2014
+104,13,Sesi,Sada Cruzeiro,4,2014

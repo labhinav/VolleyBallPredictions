@@ -1,0 +1,150 @@
+,Date,away_team,home_team,month,year
+0,15,Minas,JF Volei,10,2017
+1,15,America Volei,Canoas,10,2017
+2,15,Sesi,Maringa,10,2017
+3,15,Volei Renata,Ponta Grossa,10,2017
+4,15,Sada Cruzeiro,Corinthians/Guarulhos,10,2017
+5,21,JF Volei,America Volei,10,2017
+6,22,Sesi,Ponta Grossa,10,2017
+7,22,Maringa,Funvic,10,2017
+8,22,SESC-RJ,Sada Cruzeiro,10,2017
+9,22,Canoas,Volei Renata,10,2017
+10,22,Minas,Corinthians/Guarulhos,10,2017
+11,27,Sesi,Sada Cruzeiro,10,2017
+12,29,Volei Renata,JF Volei,10,2017
+13,29,Sesi,Canoas,10,2017
+14,29,Sada Cruzeiro,Maringa,10,2017
+15,29,Funvic,Ponta Grossa,10,2017
+16,29,America Volei,Minas,10,2017
+17,29,Corinthians/Guarulhos,SESC-RJ,10,2017
+18,2,Sada Cruzeiro,Funvic,11,2017
+19,3,Maringa,SESC-RJ,11,2017
+20,4,Sada Cruzeiro,Ponta Grossa,11,2017
+21,4,America Volei,Corinthians/Guarulhos,11,2017
+22,4,Minas,Volei Renata,11,2017
+23,5,JF Volei,Sesi,11,2017
+24,5,Canoas,Funvic,11,2017
+25,9,Sada Cruzeiro,Canoas,11,2017
+26,9,Corinthians/Guarulhos,Maringa,11,2017
+27,9,SESC-RJ,Ponta Grossa,11,2017
+28,9,Sesi,Minas,11,2017
+29,9,JF Volei,Funvic,11,2017
+30,9,Volei Renata,America Volei,11,2017
+31,11,Sada Cruzeiro,JF Volei,11,2017
+32,12,Ponta Grossa,Maringa,11,2017
+33,12,Canoas,SESC-RJ,11,2017
+34,12,Minas,Funvic,11,2017
+35,12,America Volei,Sesi,11,2017
+36,13,Volei Renata,Corinthians/Guarulhos,11,2017
+37,19,Sada Cruzeiro,Minas,11,2017
+38,19,Sesi,Volei Renata,11,2017
+39,19,SESC-RJ,JF Volei,11,2017
+40,19,Funvic,America Volei,11,2017
+41,21,Maringa,Canoas,11,2017
+42,22,Corinthians/Guarulhos,Ponta Grossa,11,2017
+43,24,SESC-RJ,Minas,11,2017
+44,25,Sada Cruzeiro,America Volei,11,2017
+45,26,Volei Renata,Funvic,11,2017
+46,26,Canoas,Ponta Grossa,11,2017
+47,26,Sesi,Corinthians/Guarulhos,11,2017
+48,27,JF Volei,Maringa,11,2017
+49,30,SESC-RJ,America Volei,11,2017
+50,2,Maringa,Minas,12,2017
+51,2,Corinthians/Guarulhos,Canoas,12,2017
+52,3,Ponta Grossa,JF Volei,12,2017
+53,3,Sada Cruzeiro,Volei Renata,12,2017
+54,3,Funvic,Sesi,12,2017
+55,7,America Volei,Maringa,12,2017
+56,8,JF Volei,Canoas,12,2017
+57,8,Volei Renata,SESC-RJ,12,2017
+58,10,Funvic,Corinthians/Guarulhos,12,2017
+59,14,Ponta Grossa,Minas,12,2017
+60,15,Maringa,Volei Renata,12,2017
+61,15,Corinthians/Guarulhos,JF Volei,12,2017
+62,16,Ponta Grossa,America Volei,12,2017
+63,16,Canoas,Minas,12,2017
+64,17,SESC-RJ,Sesi,12,2017
+65,22,Maringa,Sesi,12,2017
+66,22,Canoas,America Volei,12,2017
+67,22,JF Volei,Minas,12,2017
+68,22,Ponta Grossa,Volei Renata,12,2017
+69,22,SESC-RJ,Funvic,12,2017
+70,13,Ponta Grossa,Sesi,1,2018
+71,13,Corinthians/Guarulhos,Minas,1,2018
+72,14,America Volei,JF Volei,1,2018
+73,14,Volei Renata,Canoas,1,2018
+74,14,Funvic,Maringa,1,2018
+75,14,Sada Cruzeiro,SESC-RJ,1,2018
+76,17,Corinthians/Guarulhos,Sada Cruzeiro,1,2018
+77,20,Minas,America Volei,1,2018
+78,20,Canoas,Sesi,1,2018
+79,21,JF Volei,Volei Renata,1,2018
+80,21,Ponta Grossa,Funvic,1,2018
+81,21,Maringa,Sada Cruzeiro,1,2018
+82,21,SESC-RJ,Corinthians/Guarulhos,1,2018
+83,1,Canoas,Sada Cruzeiro,2,2018
+84,3,Volei Renata,Minas,2,2018
+85,4,Sesi,JF Volei,2,2018
+86,4,Ponta Grossa,Sada Cruzeiro,2,2018
+87,4,SESC-RJ,Maringa,2,2018
+88,4,Corinthians/Guarulhos,America Volei,2,2018
+89,4,Funvic,Canoas,2,2018
+90,9,Minas,Sesi,2,2018
+91,9,Funvic,JF Volei,2,2018
+92,9,Ponta Grossa,SESC-RJ,2,2018
+93,9,Maringa,Corinthians/Guarulhos,2,2018
+94,10,America Volei,Volei Renata,2,2018
+95,17,JF Volei,Sada Cruzeiro,2,2018
+96,18,Corinthians/Guarulhos,Volei Renata,2,2018
+97,18,Funvic,Minas,2,2018
+98,18,Sesi,America Volei,2,2018
+99,18,Maringa,Ponta Grossa,2,2018
+100,18,SESC-RJ,Canoas,2,2018
+101,22,Volei Renata,Sesi,2,2018
+102,22,Canoas,Maringa,2,2018
+103,22,JF Volei,SESC-RJ,2,2018
+104,22,Minas,Sada Cruzeiro,2,2018
+105,22,America Volei,Funvic,2,2018
+106,22,Ponta Grossa,Corinthians/Guarulhos,2,2018
+107,24,Minas,SESC-RJ,2,2018
+108,25,Funvic,Volei Renata,2,2018
+109,25,Maringa,JF Volei,2,2018
+110,25,Ponta Grossa,Canoas,2,2018
+111,25,America Volei,Sada Cruzeiro,2,2018
+112,25,Corinthians/Guarulhos,Sesi,2,2018
+113,3,Canoas,Corinthians/Guarulhos,3,2018
+114,4,Minas,Maringa,3,2018
+115,4,Sesi,Funvic,3,2018
+116,4,JF Volei,Ponta Grossa,3,2018
+117,7,America Volei,SESC-RJ,3,2018
+118,10,SESC-RJ,Volei Renata,3,2018
+119,11,Canoas,JF Volei,3,2018
+120,11,Corinthians/Guarulhos,Funvic,3,2018
+121,11,Sada Cruzeiro,Sesi,3,2018
+122,11,Maringa,America Volei,3,2018
+123,11,Minas,Ponta Grossa,3,2018
+124,15,Volei Renata,Sada Cruzeiro,3,2018
+125,18,Sesi,SESC-RJ,3,2018
+126,18,Funvic,Sada Cruzeiro,3,2018
+127,18,America Volei,Ponta Grossa,3,2018
+128,18,Volei Renata,Maringa,3,2018
+129,18,JF Volei,Corinthians/Guarulhos,3,2018
+130,18,Minas,Canoas,3,2018
+131,24,Volei Renata,SESC-RJ,3,2018
+132,25,Canoas,Sada Cruzeiro,3,2018
+133,25,Corinthians/Guarulhos,Sesi,3,2018
+134,26,Minas,Funvic,3,2018
+135,29,SESC-RJ,Volei Renata,3,2018
+136,30,Sada Cruzeiro,Canoas,3,2018
+137,30,Sesi,Corinthians/Guarulhos,3,2018
+138,31,Funvic,Minas,3,2018
+139,8,Funvic,Sada Cruzeiro,4,2018
+140,8,SESC-RJ,Sesi,4,2018
+141,11,Sada Cruzeiro,Funvic,4,2018
+142,11,Sesi,SESC-RJ,4,2018
+143,14,Funvic,Sada Cruzeiro,4,2018
+144,14,Sesi,SESC-RJ,4,2018
+145,18,Sada Cruzeiro,Funvic,4,2018
+146,21,Funvic,Sada Cruzeiro,4,2018
+147,28,Sada Cruzeiro,Sesi,4,2018
+148,6,Sesi,Sada Cruzeiro,5,2017

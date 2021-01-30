@@ -1,0 +1,111 @@
+,Date,away_team,home_team,month,year
+0,16,Sesi,Minas,12,2012
+1,16,Canoas,Volta Redonda,12,2012
+2,16,RJX,Medley,12,2012
+3,16,Super Imperatriz,Funvic,12,2012
+4,19,Volta Redonda,Medley,12,2012
+5,21,Canoas,Sesi,12,2012
+6,21,Funvic,Volei Futuro,12,2012
+7,21,Sada Cruzeiro,JF Volei,12,2012
+8,21,Sao Bernardo,Super Imperatriz,12,2012
+9,21,Minas,RJX,12,2012
+10,22,Volta Redonda,Volei Futuro,12,2012
+11,23,Minas,JF Volei,12,2012
+12,23,Sada Cruzeiro,RJX,12,2012
+13,23,Funvic,Medley,12,2012
+14,30,Sesi,Super Imperatriz,12,2012
+15,30,Canoas,Sao Bernardo,12,2012
+16,7,Volta Redonda,Sao Bernardo,1,2013
+17,11,Funvic,Sesi,1,2013
+18,11,Medley,Sada Cruzeiro,1,2013
+19,11,Volei Futuro,Minas,1,2013
+20,11,RJX,Canoas,1,2013
+21,11,JF Volei,Super Imperatriz,1,2013
+22,12,Medley,Minas,1,2013
+23,13,Funvic,Sao Bernardo,1,2013
+24,13,Volta Redonda,Sesi,1,2013
+25,13,JF Volei,Canoas,1,2013
+26,13,Volei Futuro,Sada Cruzeiro,1,2013
+27,14,RJX,Super Imperatriz,1,2013
+28,17,Medley,Sesi,1,2013
+29,18,Volei Futuro,Sao Bernardo,1,2013
+30,18,JF Volei,Volta Redonda,1,2013
+31,18,RJX,Funvic,1,2013
+32,18,Minas,Super Imperatriz,1,2013
+33,18,Sada Cruzeiro,Canoas,1,2013
+34,19,Minas,Canoas,1,2013
+35,19,Volei Futuro,Sesi,1,2013
+36,20,Volta Redonda,RJX,1,2013
+37,20,JF Volei,Funvic,1,2013
+38,20,Sada Cruzeiro,Super Imperatriz,1,2013
+39,20,Medley,Sao Bernardo,1,2013
+40,25,Sao Bernardo,RJX,1,2013
+41,25,Funvic,Minas,1,2013
+42,25,Canoas,Medley,1,2013
+43,25,Super Imperatriz,Volei Futuro,1,2013
+44,25,Volta Redonda,Sada Cruzeiro,1,2013
+45,25,Sesi,JF Volei,1,2013
+46,26,Sesi,RJX,1,2013
+47,27,Funvic,Sada Cruzeiro,1,2013
+48,27,Canoas,Volei Futuro,1,2013
+49,27,Sao Bernardo,JF Volei,1,2013
+50,27,Super Imperatriz,Medley,1,2013
+51,27,Volta Redonda,Minas,1,2013
+52,1,Sada Cruzeiro,Sesi,2,2013
+53,1,Minas,Sao Bernardo,2,2013
+54,1,JF Volei,Medley,2,2013
+55,1,Funvic,Canoas,2,2013
+56,1,Volta Redonda,Super Imperatriz,2,2013
+57,1,RJX,Volei Futuro,2,2013
+58,2,Sada Cruzeiro,Sao Bernardo,2,2013
+59,3,JF Volei,Volei Futuro,2,2013
+60,3,Volta Redonda,Canoas,2,2013
+61,3,Funvic,Super Imperatriz,2,2013
+62,3,Medley,RJX,2,2013
+63,3,Minas,Sesi,2,2013
+64,7,Sao Bernardo,Sesi,2,2013
+65,7,Funvic,Volta Redonda,2,2013
+66,7,Medley,Volei Futuro,2,2013
+67,8,JF Volei,RJX,2,2013
+68,8,Minas,Sada Cruzeiro,2,2013
+69,17,Canoas,Super Imperatriz,2,2013
+70,22,Sesi,Canoas,2,2013
+71,22,Super Imperatriz,Sao Bernardo,2,2013
+72,22,Medley,Volta Redonda,2,2013
+73,22,JF Volei,Sada Cruzeiro,2,2013
+74,22,Volei Futuro,Funvic,2,2013
+75,22,RJX,Minas,2,2013
+76,23,JF Volei,Minas,2,2013
+77,23,Super Imperatriz,Sesi,2,2013
+78,24,Medley,Funvic,2,2013
+79,24,Volei Futuro,Volta Redonda,2,2013
+80,24,Sao Bernardo,Canoas,2,2013
+81,24,RJX,Sada Cruzeiro,2,2013
+82,1,Canoas,RJX,3,2013
+83,1,Sao Bernardo,Volta Redonda,3,2013
+84,1,Minas,Volei Futuro,3,2013
+85,1,Super Imperatriz,JF Volei,3,2013
+86,1,Sesi,Funvic,3,2013
+87,1,Sada Cruzeiro,Medley,3,2013
+88,3,Sesi,Volta Redonda,3,2013
+89,3,Sada Cruzeiro,Volei Futuro,3,2013
+90,3,Super Imperatriz,RJX,3,2013
+91,3,Minas,Medley,3,2013
+92,3,Canoas,JF Volei,3,2013
+93,3,Sao Bernardo,Funvic,3,2013
+94,9,Sao Bernardo,RJX,3,2013
+95,10,Volta Redonda,Sada Cruzeiro,3,2013
+96,10,Canoas,Sesi,3,2013
+97,10,Minas,Medley,3,2013
+98,13,RJX,Sao Bernardo,3,2013
+99,14,Sada Cruzeiro,Volta Redonda,3,2013
+100,15,Sesi,Canoas,3,2013
+101,15,Medley,Minas,3,2013
+102,17,Volta Redonda,Sada Cruzeiro,3,2013
+103,17,Canoas,Sesi,3,2013
+104,23,Minas,RJX,3,2013
+105,24,Sesi,Sada Cruzeiro,3,2013
+106,30,Sada Cruzeiro,Sesi,3,2013
+107,31,RJX,Minas,3,2013
+108,6,Minas,RJX,4,2013
+109,14,Sada Cruzeiro,RJX,4,2013
