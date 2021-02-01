@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0246)https://f1.cdn.ftd.agency/uploads/media/5/7/11575/v2/1xbet_EN_120x240_eventfulSoccer.html?clickTag=https://z.cdn.ftd.agency/go?z=1664006129&m=1884838177&c=1319136826&p0=1247792504&u=f48e7e5443b4168c&t=1612097346&n=5097252069576338029&h=4179131991 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>1xbet_EN_120x240_eventfulSoccer</title>
+<!-- write your code here -->
+<script src="./createjs.min.js"></script>
+<script src="./1xbet_EN_120x240_eventfulSoccer.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("EF63F6FE725CDF4DA3B5045D269AB6F8");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib._1xbet_EN_120x240_eventfulSoccer();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+<script src="./banner_html5.js"></script>
+ <link href="./css2" rel="stylesheet">
+<script src="./jquery-3.4.1.min.js"></script><script src="./anwidget.js"></script><script src="./jquery-ui.min.js"></script><link rel="stylesheet" type="text/css" href="./jquery-ui.css"><script src="./datepicker.js"></script></head>
+<body onload="init();" style="margin:0px;" data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:120px; height:240px">
+		<canvas id="canvas" width="120" height="240" style="position: absolute; display: block; background-color: rgb(255, 255, 255); width: 120px; height: 240px;"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:120px; height:240px; position: absolute; left: 0px; top: 0px; display: block;"><div id="_datepicker_picker0" style="display: block; pointer-events: all; box-sizing: border-box; position: absolute; width: 100px; height: 22px; transform-origin: 50px 11px; transform: matrix(1, 0, 0, 1, -2.5, -51.25);"> <input type="text" id="picker0" class="jqueryui-datepicker" style="box-sizing: border-box; width: 100px; height: 22px;"></div>
+		</div>
+		<div id="clickTagLayer" style="position: absolute; top: 0; left: 0; z-index: 16777271; width: 100%; height: 100%; cursor: pointer; cursor: hand"></div>
+	</div>
+	<script type="text/javascript">
+    var layer = document.getElementById("clickTagLayer");
+    if (layer) {
+        var feed = "common.json";
+        layer.addEventListener('click',function(){
+            if(sessionStorage["currentUrl"] !=undefined ) {
+                window.open(clickTag + '&a=' + sessionStorage['currentUrl'], '_blank');
+   			} else {
+       			window.open(clickTag, '_blank');
+       		}
+        });
+    }
+</script>
+
+
+<div id="preloadjs-container" style="visibility: hidden; position: absolute; height: 10px; width: 10px; overflow: hidden; transform: translate(-10px, -10px);"></div><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
