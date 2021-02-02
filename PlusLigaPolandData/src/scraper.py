@@ -10,8 +10,8 @@ import pickle
 
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
-
-f=open("../html/results/FlashScore.in_ PlusLiga 2011_2012 Results.html")
+# Change file name here.
+f=open("../html/results/FlashScore.in_ PlusLiga 2010_2011 Results.html")
 text=f.read()
 res = re.sub("  ","",text);
 res = re.sub("<div class=\"notificationsDialog__sportContainer\">","<RoundEnd>",res);
@@ -43,7 +43,9 @@ matches.reverse()
 #     print('\n')
 # print(len(matches))
 
-s = open("../html/standings/FlashScore.in_ PlusLiga 2011_2012 Standings.html")
+
+# Change File name here
+s = open("../html/standings/FlashScore.in_ PlusLiga 2010_2011 Standings.html")
 standTable = s.read();
 W = re.sub("<svg class=\"teamLogoPlaceholder.*?</svg>","",standTable);
 board = re.findall("<div class=\"rowCellParticipantBlock.*?<span class=\"  rowCell____vgDgoa cell___4WLG6Yd \">",W)
@@ -65,7 +67,7 @@ for i in range(len(board)):
 for i in range(len(board)):
  print(board[i]);
  last_year_pos=int(input("Last year position: "))
- local_dict[team_name[i]].reset(last_year_pos)
+ local_dict[board[i]].reset(last_year_pos)
  print("\n");
 
 
@@ -192,9 +194,11 @@ df = pd.DataFrame({
 })
 print("here3")
 print(df.head())
-df.to_csv('../data/2011-12.csv')
-# dict_file=open('../../src/dict_file.txt','ab')
-# pickle.dump(local_dict,dict_file)
+
+#Change name based on season
+df.to_csv('../data/2010-11.csv')
+dict_file=open('../../src/dict_file.txt','ab')
+pickle.dump(local_dict,dict_file)
         
 
     
