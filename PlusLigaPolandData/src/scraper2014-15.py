@@ -40,9 +40,11 @@ for i in range(len(R)):
 for i in range(len(allMatches)):
 	allMatches[i] = re.sub("<.*?>","  ",allMatches[i])
 matches = []
+#Uncomment this only for 2014-15
+#allMatches.pop(32);
 for i in allMatches:
 	print(i);
-	matches.append(i);
+	matches.append(Match(i));
 matches.reverse()
 # for i in matches:
 #     print(i)
@@ -202,7 +204,7 @@ print("here3")
 print(df.head())
 
 #Change name based on season
-df.to_csv('../data/2010-11.csv')
+df.to_csv('../data/2014-15.csv')
 dict_file=open('../../src/dict_file.txt','ab')
 pickle.dump(local_dict,dict_file)
         
