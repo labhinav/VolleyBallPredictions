@@ -11,7 +11,7 @@ import pickle
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
 # Change file name here.
-f=open("../html/results/FlashScore.in_ PlusLiga 2014_2015 Results.html")
+f=open("../html/results/FlashScore.in_ PlusLiga 2019_2020 Results.html")
 text=f.read()
 res = re.sub("  ","",text);
 res = re.sub("<div class=\"notificationsDialog__sportContainer\">","<RoundEnd>",res);
@@ -21,7 +21,7 @@ res = re.sub("<div class=\"event__time\">","<MatchEnd><MatchStart>",res);
 res = re.sub("<div class=\"notificationsDialog \">","<MatchEnd>",res);
 res = re.sub("<span class=\"event__title--name\".*?</span>","",res);
 res = re.sub("<span class=\"event__title--type\".*?</span>","",res);
-res = re.sub("<a href=\"https://www.flashscore.in/volleyball/poland/plusliga-2014-2015/results/#\" class=\"event__info active\">Draw</a>","",res);
+res = re.sub("<a href=\"https://www.flashscore.in/volleyball/poland/plusliga-2019-2020/results/#\" class=\"event__info active\">Draw</a>","",res);
 
 R = re.findall("<RoundStart>.*?<RoundEnd>",res);
 #print(len(R));
@@ -41,7 +41,8 @@ for i in range(len(allMatches)):
 	allMatches[i] = re.sub("<.*?>","  ",allMatches[i])
 matches = []
 #Uncomment this only for 2014-15
-#allMatches.pop(32);
+#allMatches.pop(14);
+#allMatches.pop(21);
 for i in allMatches:
 	print(i);
 	matches.append(Match(i));
@@ -53,7 +54,7 @@ matches.reverse()
 
 
 # Change File name here
-s = open("../html/standings/FlashScore.in_ PlusLiga 2014_2015 Standings.html")
+s = open("../html/standings/FlashScore.in_ PlusLiga 2019_2020 Standings.html")
 standTable = s.read();
 W = re.sub("<svg class=\"teamLogoPlaceholder.*?</svg>","",standTable);
 board = re.findall("<div class=\"rowCellParticipantBlock.*?<span class=\"  rowCell____vgDgoa cell___4WLG6Yd \">",W)
@@ -65,6 +66,7 @@ for i in range(len(board)):
 dict_file=open('../../src/dict_file.txt','rb')
 global_dict=pickle.load(dict_file)
 local_dict={}
+#board.append("AZS Czestochowa");
 for i in range(len(board)):
  if(board[i] in global_dict):
   local_dict[board[i]]=global_dict[board[i]]
@@ -204,7 +206,7 @@ print("here3")
 print(df.head())
 
 #Change name based on season
-df.to_csv('../data/2014-15.csv')
+df.to_csv('../data/2019-20.csv')
 dict_file=open('../../src/dict_file.txt','ab')
 pickle.dump(local_dict,dict_file)
         

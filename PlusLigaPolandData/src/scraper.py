@@ -11,7 +11,7 @@ import pickle
 def exponential_av(input,weight,old_val):
     return weight*input+old_val*(1-weight)
 # Change file name here.
-f=open("../html/results/FlashScore.in_ PlusLiga 2010_2011 Results.html")
+f=open("../html/results/FlashScore.in_ PlusLiga 2015_2016 Results.html")
 text=f.read()
 res = re.sub("  ","",text);
 res = re.sub("<div class=\"notificationsDialog__sportContainer\">","<RoundEnd>",res);
@@ -45,7 +45,7 @@ matches.reverse()
 
 
 # Change File name here
-s = open("../html/standings/FlashScore.in_ PlusLiga 2010_2011 Standings.html")
+s = open("../html/standings/FlashScore.in_ PlusLiga 2015_2016 Standings.html")
 standTable = s.read();
 W = re.sub("<svg class=\"teamLogoPlaceholder.*?</svg>","",standTable);
 board = re.findall("<div class=\"rowCellParticipantBlock.*?<span class=\"  rowCell____vgDgoa cell___4WLG6Yd \">",W)
@@ -196,7 +196,7 @@ print("here3")
 print(df.head())
 
 #Change name based on season
-df.to_csv('../data/2010-11.csv')
+df.to_csv('../data/2015-16.csv')
 dict_file=open('../../src/dict_file.txt','ab')
 pickle.dump(local_dict,dict_file)
         
