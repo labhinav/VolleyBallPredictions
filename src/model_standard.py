@@ -354,11 +354,3 @@ print("StandardScaler preprocessing")
 models_sorted=models_initial.sort_values(by='test_Acc', ascending=False)
 pd.set_option("display.max_rows",None, "display.max_columns", None)
 print(models_sorted)
-
-
-
-
-
-
-
-
